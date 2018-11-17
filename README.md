@@ -1,15 +1,15 @@
 # Design and Development Challenge – Bowling Score (Solution Using React.js)
-# By Brook Daba
+## By Brook Daba
 
 This is a solution to the development challenge using React.js.
-# To deploy this app
-# (option 1)
+## To deploy this app
+### (option 1)
   1) download repository
   2) navigate to the app directory
   3) npm install
   4) npm start
 
-#(option 2)
+### (option 2)
 go to https://codesandbox.io/s/github/brookdb/splits-happen to access the repository on codesandbox.io
 
 ## important notes about the app
