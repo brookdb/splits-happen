@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans|Open+Sans:600");
+.App {
+  font-family: "Noto Sans", sans-serif;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 12vh;
+  border-radius: 23px;
+  background: yellow;
+  display: flex;
+  flex-direction: column;
+}
+#title {
+  padding: 12px;
+  font-size: calc(15px + 2vw);
+  background: #a31f34;
+  color: #fff;
+  flex-grow: 1;
+}
+#textbox {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  padding: 5px;
+  border-radius: 6px;
+}
+#textbox-wrap {
+  background: #c2c0bf;
+  padding: 12px;
+  padding-right: 16px;
+}
+input[type="text"] {
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  padding-left: 12px;
+}
+input[type="submit"] {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: calc(6px + 1.2vw);
+  font-weight: bold;
+  background: none;
+  color: #a31f34;
+}
+input[type="submit"]:hover {
+  color: #444;
+}
+#score {
+  padding: 12px;
+  font-size: calc(30px + 3vw);
+  background: #a31f34;
+  color: #fff;
+  flex-grow: 1;
+}
