@@ -1,5 +1,27 @@
-# Design and Development Challenge – Bowling Score
+# Design and Development Challenge – Bowling Score (Solution Using React.js)
+# By Brook Daba
 
+This is a solution to the development challenge using React.js.
+# To deploy this app
+(option 1)
+1 - download repository
+2 - navigate to the app directory
+3 - npm install
+4 - npm start
+
+(option 2)
+go to https://codesandbox.io/s/github/brookdb/splits-happen to access the repository on codesandbox.io
+
+## important notes about the app
+- calculate.js is a statefull component that handles storing user input, calculating the score, and desplaying it on the view
+- when the form is submitted, the input is stored into state.input
+- the calculation is done in the following step
+  1) change the input from 'String' to 'Array of Char' (frames) and get rid of any whitespace
+  2) iterate the frames array and add 'int' version of each value into a new array (rolls)
+  3) iterate the frames array and add to a single int variable (score) all values from rolls array based on the scoring Logic given below (example: if frames[i] == 'X' then score += (rolls[i] + rolls[i+1] + rolls[i+2])
+- if you are viewing the app via the CodeSandBox link, you can use (src/sample.test.js) to test the calculate.js component using the validation test cases given below
+
+-----------------------------------------------------------------------------
 ## Requirement
 Create a program which, given a valid sequence of rolls for one line of American Ten-Pin Bowling, produces the total score for the game. Fork this repository, build your program in the language of your choice, then submit a pull request with your code.
 
